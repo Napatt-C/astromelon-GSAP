@@ -18,10 +18,44 @@ ____________
 
 <br>
 
-## 1. Import GSAP CDN
+## 1. Import GSAP CDN 🧦
+_____________
 
 #### You can copy from a code below or copy from [GSAP CDN](https://greensock.com/docs/v3/Installation) directly.
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 ```
+<br>
+
+## 2. HTML, importance explanation. 🍊
+______________
+
+<br>
+
+#### 2.1 Trick to reveal a "astrofruit" by a small circle made it uniquely from common appear (as opacity: 0 to 1).
+```html
+<div class="big-circle">
+        <div class="small-circle">
+           <div class="circle"></div>
+        </div>
+        <div class="inc-text">
+           <h3>astrofruit</h3>
+        </div>
+</div>
+```
+<br>
+
+#### 2.2 Empty div for create adaptable lines (hamburger line or navigation menu).
+```html
+<div class="hamburger">
+       <div class="hamburger-line left-line"></div>
+       <div class="hamburger-line middle-line"></div>
+       <div class="hamburger-line right-line"></div>
+</div>
+```
+
+<br>
+
+
+
