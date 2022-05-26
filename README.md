@@ -57,5 +57,24 @@ ______________
 
 <br>
 
+## 3. Javascript :banana:
+_________________
+
+### 3.1 Create GSAP timeline. ⏲️
+
+#### After we DOM all we want to animate, we'll create animation [timeline](https://greensock.com/docs/v3/GSAP/Timeline) to arrange all animation as we want.
+```html
+const tl = gsap.timeline();
+```
+##### You can change a name as you want if you don't like my tl as timeline. 😮	:open_mouth:
+
+<br>
+
+### 3.2 Understand thier form. 🦾
+
+#### GSAP has 3 optional for animate object as [to](https://greensock.com/docs/v3/GSAP/gsap.to()), [fromTo](https://greensock.com/docs/v3/GSAP/gsap.fromTo()) and [from](https://greensock.com/docs/v3/GSAP/gsap.from())
+##### In this project, I used fromTo and to only 
+<br>
+
 
 
