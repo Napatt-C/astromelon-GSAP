@@ -73,8 +73,27 @@ const tl = gsap.timeline();
 ### 3.2 Understand thier form. 🦾
 
 #### GSAP has 3 optional for animate object as [to](https://greensock.com/docs/v3/GSAP/gsap.to()), [fromTo](https://greensock.com/docs/v3/GSAP/gsap.fromTo()) and [from](https://greensock.com/docs/v3/GSAP/gsap.from())
-##### In this project, I used fromTo and to only 
+##### In this project, I used 'fromTo' and 'to' only 
 <br>
+
+```html
+tl.fromTo(bigCir, 0.3, {height: '1px'}, {height: '800px'}, '>0.1')
+```
+* tl : Timeline which we just created.
+* .fromTo : Optional animation controller which setting between 'start point' and 'ending point'.
+### In bracket: 
+* 1st bigCir : Object which we want it to animate.
+* 2nd 0.3 (integer) : Duration of animation (how long you want it to play until end). 
+### In curly bracket 
+* first of curly braket : where/how it was before start.
+* second of curly braket : where/how it going to be.
+### After curly bracket 
+* In the quotation, they are timeline positioning for object what control when they'll start.
+* We can use it variously, let's check all of them [here](https://greensock.com/docs/v3/GSAP/Timeline).
+##### In this project, I used 'xPercent' mostly which is mean percentage of it width they can move. You can replace it with 'x:' width any unit e.g. 'px' . 
+##### If you have Javascript basic GSAP animation is easy to you surely, because they use same property mostly e.g. height, width, opacity, transformOrigin or color. 
+##### But, they build most useful property which help us a lot to create interesting animation e.g xPercent, yPercent or yoyo
+
 
 
 
