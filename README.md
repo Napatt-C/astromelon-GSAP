@@ -164,5 +164,5 @@ repeatRefresh: true
 
 ________________
 
-### All right, thank you everyone who have patience to read until the end.
-### Like I said on the head, this is my first Github publish with explanation, but I feel free and very pleasure if you have complaination, advise or anything else that you want me to fix it to be better.
+### All right, thank you everyone who have patience to read until the end. :pray:
+### Like I said on the head, this is my first Github publish with explanation, but I feel free and very pleasure if you have complaination, advise or anything else that you want me to fix it to be better. :open_hands:
