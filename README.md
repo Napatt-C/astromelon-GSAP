@@ -11,4 +11,4 @@ ____________
 
 #### This project was created by HTML, CSS and Javascript with [GSAP](https://greensock.com) plugins
 
-##### I'll explain the javascript with GSAP process only. You can check on this [animation.js](https://github.com/Napatt-C/astromelon-GSAP/blob/main/animation.js) for details on code
+##### You can check this javascript file for explanation on code. [animation.js](https://github.com/Napatt-C/astromelon-GSAP/blob/main/animation.js) for details on code
