@@ -143,3 +143,26 @@ function loop() {
 * First, Minimum range/degree/scale/delay time.
 * Second, Maximum range/degree/scale/delay time.
 * Third, Gap of number they random in range. (for distance and rotation degree only)
+
+#### As you can see a code, we use same timeline (tl) to make sure watermelon will swim after pre-animation was ended.
+#### Let's get deeper in a timeline in side loop(function).
+
+```html
+.repeat: -1
+```
+##### Watermelon piece will playing till the end of the world (Or until you just close it).
+
+```html
+yoyo: true
+```
+#### Watermelon piece will return in the same way they went like yoyo.
+
+```html
+repeatRefresh: true
+```
+#### Refresh everytime they return to the start point (distance, degree, scale).
+
+________________
+
+### All right, thank you everyone who have patience to read until the end.
+### Like I said on the head, this is my first Github publish with explanation, but I feel free and very pleasure if you have complaination, advise or anything else that you want me to fix it to be better.
