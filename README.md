@@ -73,7 +73,7 @@ const tl = gsap.timeline();
 ### 3.2 Understand thier form. 🦾
 
 #### GSAP has 3 optional for animate object as [to](https://greensock.com/docs/v3/GSAP/gsap.to()), [fromTo](https://greensock.com/docs/v3/GSAP/gsap.fromTo()) and [from](https://greensock.com/docs/v3/GSAP/gsap.from())
-##### In this project, I used 'fromTo' and 'to' only 
+##### In this project, I used 'fromTo' and 'to' only. 
 <br>
 
 ```js
@@ -102,7 +102,7 @@ tl.fromTo(bigCir, 0.3, {height: '1px'}, {height: '800px'}, '>0.1')
 ```js
 .add(loop, '>-0.1');
 ```
-#### I want all watermelon pieces move, rotate, scale and delay with specific random number and.. restart everytime they return to start point
+#### I want all watermelon pieces move, rotate, scale and delay with specific random number and.. restart everytime they return to start point.
 ```js
 function loop() {
     pieces.forEach(piece => {
@@ -164,5 +164,6 @@ repeatRefresh: true
 
 ________________
 
-### All right, thank you everyone who have patience to read until the end. :pray:
+### All right, thank you everyone who have patience to read until the end. I hope this project will help you about your animation. :pray:
 ### Like I said on the head, this is my first Github publish with explanation, but I feel free and very pleasure if you have complaination, advise or anything else that you want me to fix it to be better. :open_hands:
+
