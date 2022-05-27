@@ -63,7 +63,7 @@ _________________
 ### 3.1 Create GSAP timeline. ⏲️
 
 #### After we DOM all we want to animate, we'll create animation [timeline](https://greensock.com/docs/v3/GSAP/Timeline) to arrange all animation as we want.
-```html
+```js
 const tl = gsap.timeline();
 ```
 ##### You can change a name as you want if you don't like my tl as timeline. 😮	:open_mouth:
@@ -76,7 +76,7 @@ const tl = gsap.timeline();
 ##### In this project, I used 'fromTo' and 'to' only 
 <br>
 
-```html
+```js
 tl.fromTo(bigCir, 0.3, {height: '1px'}, {height: '800px'}, '>0.1')
 ```
 * tl : Timeline which we just created.
@@ -99,11 +99,11 @@ tl.fromTo(bigCir, 0.3, {height: '1px'}, {height: '800px'}, '>0.1')
 
 #### As you can see in the bunch of code in a timeline you can design it as variously as you can imagine. 
 #### and In the final line of timeline's code as 
-```html
+```js
 .add(loop, '>-0.1');
 ```
 #### I want all watermelon pieces move, rotate, scale and delay with specific random number and.. restart everytime they return to start point
-```html
+```js
 function loop() {
     pieces.forEach(piece => {
         // create random range.
@@ -137,7 +137,7 @@ function loop() {
 #### In '.utils' GSAP have a lot of useful property and random is the one of them.
 
 #### Let's get into the random bracket.
-```html
+```js
 .utils.random(-50, 50, 2)
 ```
 * First, Minimum range/degree/scale/delay time.
@@ -147,17 +147,17 @@ function loop() {
 #### As you can see a code, we use same timeline (tl) to make sure watermelon will swim after pre-animation was ended.
 #### Let's get deeper in a timeline in side loop(function).
 
-```html
+```js
 .repeat: -1
 ```
 ##### Watermelon piece will playing till the end of the world (Or until you just close it).
 
-```html
+```js
 yoyo: true
 ```
 #### Watermelon piece will return in the same way they went like yoyo.
 
-```html
+```js
 repeatRefresh: true
 ```
 #### Refresh everytime they return to the start point (distance, degree, scale).
