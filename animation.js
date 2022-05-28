@@ -71,6 +71,7 @@ function loop() {
         const ranX = gsap.utils.random(-50, 50, 2);
         // create random rotation degree.
         const ranRotate = gsap.utils.random(0, 360, 5, true);
+        // create random scale size
         const ranScale = gsap.utils.random(1, 1.2);
         // create random delay.
         const delay = gsap.utils.random(0.2, 2)
